@@ -140,6 +140,9 @@ section hr{
     text-decoration: none;
     color: #252525;
 }
+#news a:hover{
+    color:red;
+}
 /* 聯絡我們 */
 #contact{
    text-align: center; 
