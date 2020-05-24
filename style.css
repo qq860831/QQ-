@@ -140,3 +140,10 @@ section hr{
     text-decoration: none;
     color: #252525;
 }
+/* 聯絡我們 */
+#contact p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2.5;
+}
