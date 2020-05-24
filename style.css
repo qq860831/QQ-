@@ -86,16 +86,57 @@ section{
     margin: 0 auto;
     /* 水平置中 */
 }
+/* 關於丸龜 */
 #about > div{
     /* ">" 代表裡面子元素的第一層 ；空格的話則會包含到所有的子元素*/
     display:grid;
     grid-template-columns: 60% 40%;
     grid-gap: 20px;
+    /* 格線的間隙 */
 }
 #about > div .img{
     background-image: url(./img/about.jpg);
+    /* "./"搜尋資料夾 */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
+}
+#about > div p{
+    line-height: 2;
+    /* 行高 */
+    letter-spacing: 5px;
+    /* 字與字間的距離 */
+    padding-right: 20px;
+    /* 讓內容不要超出去 */
+}
+section h1{
+    font-family: Ngaan;
+    margin-top: 60px;
+    font-size: 32px;
+}
+section hr{
+    margin-bottom: 40px;
+}
+/* 最新消息 */
+#news ul{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    list-style: none;
+    /* 清單樣式:無 */
+}
+#news ul span{
+    color:gray;
+    padding: 10px 0;
+}
+#news ul li{
+    font-size: 24px;
+    padding: 10px 0;
+}
+#news div{
+    text-align: right;
+}
+#news a{
+    text-decoration: none;
+    color: #252525;
 }
