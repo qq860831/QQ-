@@ -87,7 +87,7 @@ section{
     /* 水平置中 */
 }
 #about > div{
-    /* ">" 代表裡面子元素的第一層 */
+    /* ">" 代表裡面子元素的第一層 ；空格的話則會包含到所有的子元素*/
     display:grid;
     grid-template-columns: 60% 40%;
     grid-gap: 20px;
@@ -98,6 +98,4 @@ section{
     background-size: cover;
     background-position: center;
     height: 500px;
-}
-
 }
