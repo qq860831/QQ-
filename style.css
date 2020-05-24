@@ -86,3 +86,18 @@ section{
     margin: 0 auto;
     /* 水平置中 */
 }
+#about > div{
+    /* ">" 代表裡面子元素的第一層 */
+    display:grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 20px;
+}
+#about > div .img{
+    background-image: url(./img/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+}
